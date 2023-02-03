@@ -5,9 +5,9 @@ function Title() {
   return (
     <div className="Title">
       <h1>SFPOPOS</h1>
-      <div className="TItle-Subtitle">San Franciscos Privately Owned Public Spaces</div>
+      <div className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</div>
     </div>
   )
 }
 
-export default Title
+export default Title;

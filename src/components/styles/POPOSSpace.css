@@ -1,0 +1,10 @@
+.POPOSSpace {
+    border: 1px black solid;
+    width: 100%;
+    justify-self: center;
+}
+
+.POPOSSpace > img {
+    width: 100%;
+    height: auto;
+}
