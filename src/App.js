@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import { Outlet } from 'react-router-dom';
 
 import Title from './components/Title'
 import POPOSList from './components/POPOSList';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Title />
-      <POPOSList />
+      <Outlet />
       <Footer />
     </div>
   );

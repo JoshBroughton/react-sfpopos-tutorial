@@ -10,5 +10,17 @@
     margin-bottom: 2em;
     border-bottom: 1px solid black;
     background-color: #90A9B7;
-  }
-  
+}
+
+.Title .nav-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Title .nav-link-active {
+  color: #fff;
+  border-bottom: 2px solid;
+}
