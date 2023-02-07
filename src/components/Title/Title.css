@@ -12,6 +12,10 @@
     background-color: #90A9B7;
 }
 
+.Title-Subtitle {
+  padding: 0;
+}
+
 .Title .nav-link {
     display: inline-block;
     padding: 0.5em 1em;

@@ -7,7 +7,7 @@ function Title() {
     <div className="Title">
       <header>
         <h1>SFPOPOS</h1>
-        <div className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</div>
+        <p className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</p>
 
         <div>
           <NavLink 

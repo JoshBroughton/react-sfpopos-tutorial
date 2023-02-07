@@ -4,7 +4,9 @@
     justify-self: center;
 }
 
-.POPOSSpace > img {
+.spaceImage {
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
