@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-sfpopos-tutorial/static/css/main.3d228f56.css",
+    "main.js": "/react-sfpopos-tutorial/static/js/main.1d1d83da.js",
+    "static/js/787.9ad95fba.chunk.js": "/react-sfpopos-tutorial/static/js/787.9ad95fba.chunk.js",
+    "index.html": "/react-sfpopos-tutorial/index.html",
+    "main.3d228f56.css.map": "/react-sfpopos-tutorial/static/css/main.3d228f56.css.map",
+    "main.1d1d83da.js.map": "/react-sfpopos-tutorial/static/js/main.1d1d83da.js.map",
+    "787.9ad95fba.chunk.js.map": "/react-sfpopos-tutorial/static/js/787.9ad95fba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d228f56.css",
+    "static/js/main.1d1d83da.js"
+  ]
+}
