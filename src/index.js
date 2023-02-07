@@ -2,9 +2,10 @@ import React from 'react';
 //import ReactDOM from 'react-dom/client';
 import { createRoot } from 'react-dom/client'
 import './index.css';
-import App from './App';
-import POPOSList from './components/POPOSList';
-import About from './components/About';
+import App from './components/App';
+import POPOSList from './components/POPOSList/POPOSList';
+import About from './components/About/About';
+import POPOSDetails from './components/POPOSDetails/POPOSDetails';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
+        <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
   </Router>
