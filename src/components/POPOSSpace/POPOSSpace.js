@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/POPOSSpace.css'
+import './POPOSSpace.css'
 
 function POPOSSpace(props) {
   const { name, image, address, hours } = props;

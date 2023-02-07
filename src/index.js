@@ -2,9 +2,9 @@ import React from 'react';
 //import ReactDOM from 'react-dom/client';
 import { createRoot } from 'react-dom/client'
 import './index.css';
-import App from './App';
-import POPOSList from './components/POPOSList';
-import About from './components/About';
+import App from './components/App';
+import POPOSList from './components/POPOSList/POPOSList';
+import About from './components/About/About';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
