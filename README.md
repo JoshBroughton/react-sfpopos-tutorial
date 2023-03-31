@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# SFPOPOS Site Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Stories
 
-## Available Scripts
+1. As an office worker in downtown San Francisco, I want to be able to see a list of all SFPOPOS at a glance, along with key details such as image, address, and hours, so that I can quickly visualize all of my options for where to visit.
 
-In the project directory, you can run:
+2. As an office worker, a want to be able to find out more about specific spaces, so that I can refine my decision about what sites would be suitable for me to visit for a quiet lunch break, to focus on work, or to have an informal business meeting
 
-### `npm start`
+3. As an office worker, I want to be able to visit this site from my smartphone in order to remember which sites I want to go to, their hours, and how to get to them. I want to be able to open the maps app directly from this site, so I can easilly navigate to the space.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Site Outline
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- SFPOPOS
+    - Home
+        - Header
+            - Page Title: SFPOPOS
+            - Sub Title: San Francisco Privately Owned Public Open Spaces
+        - Nav
+            - NavLink: List
+            - NavLink: About
+            - NavLink: Random Space Button
+            - NavLink: Signup
+        - Main
+            - Search bar
+            - Grid
+                - Card
+                    - Image: Image of space
+                    - Header/Navlink: Name of space, link to detail page
+                    - Text: Address
+                    - Text: Hours of operation
+        - Footer
+            - Author signature
+    - About
+        - Header
+            - Page Title: SFPOPOS
+            - Sub Title: San Francisco Privately Owned Public Open Spaces
+        - Nav
+            - NavLink: List
+            - NavLink: About
+            - NavLink: Random Space
+            - NavLink: Signup
+        - Main
+            - Header: About SFPOPOS
+            - Text: Details about what POPOS are
+        - Footer
+            - Author signature
+    - Space Details Page
+        - Header
+            - Page Title: SFPOPOS
+            - Sub Title: San Francisco Privately Owned Public Open Spaces
+        - Nav
+            - NavLink: List
+            - NavLink: About
+            - NavLink: Random Space
+            - NavLink: Signup
+        - Main
+            - Image: Large image of the space
+            - Header: Name of Space
+            - Text: Extra details about space
+            - Text: Hours of operation
+            - Map: Embedded google map to space
+        - Footer
+            - Author signature
+    - Newsletter Signup Page
+        - Header
+            - Page Title: SFPOPOS
+            - Sub Title: San Francisco Privately Owned Public Open Spaces
+        - Nav
+            - NavLink: List
+            - NavLink: About
+            - NavLink: Random Space
+            - NavLink: Signup
+        - Main
+            - Form
+                - Header: Signup Form
+                - Text input: username
+                - Text input: email
+                - Checkbox input: Receive SFPOPOS Newsletter?
+                - Submit input: Signup
+        - Footer
+            - Author signature
 
-### `npm test`
+## Figma Wireframes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[link](https://www.figma.com/file/xLJ0XaTNeThI1zTJztLHBT/SFPOPOS?node-id=4%3A2&t=oJ8xnQzmx4CJetBO-1)
