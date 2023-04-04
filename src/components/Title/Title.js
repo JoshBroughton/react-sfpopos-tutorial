@@ -1,26 +1,26 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import RandomSpace from '../RandomSpace/RandomSpace'
+import Navbar from '../Navbar/Navbar';
+import { useNavigate } from 'react-router-dom';
 import './Title.css';
 
 function Title() {
+  const navigate = useNavigate();
+
+  const clickHandler = (e) => {
+    navigate(`${e.target.value}`)
+  }
+
   return (
     <div className="Title">
       <header>
-        <h1>SFPOPOS</h1>
+        <div className='Title-Container'>
+          <button value='/signup'  onClick={clickHandler} className='Signup-Button'>Signup</button>
+          <h1>SFPOPOS</h1>
+          <button className='hamburger' value='/menu' onClick={clickHandler}></button>
+        </div>
         <p className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</p>
-
-        <div className='navBar'>
-          <NavLink 
-            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to='/'>List</NavLink>
-          <NavLink 
-            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/about">About</NavLink>
-          <NavLink
-            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/signup">Signup</NavLink>
-          <RandomSpace />
+        <div className='Title-Navbar'>
+          <Navbar />
         </div>
       </header>
     </div>

@@ -1,0 +1,16 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link-active {
+    color: #fff;
+    border-bottom: 2px solid;
+}

@@ -12,27 +12,47 @@
     background-color: #90A9B7;
 }
 
+
 .Title-Subtitle {
   padding: 0;
 }
 
-.navBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.Signup-Button {
+  display: none;
 }
 
-.Title .nav-link {
-    color: rgba(255, 255, 255, 0.835);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.Title .nav-link-active {
-  color: #fff;
-  border-bottom: 2px solid;
+.hamburger {
+  display: none;
 }
 
 @media screen and (max-width: 460px) {
-  
+  .Title {
+    position: fixed;
+    top: 0;
+  }
+
+  .Title-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Title-Navbar {
+    display: none;
+  }
+
+  .Signup-Button {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    background-image: url('../../../public/images/hamburger.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
 }
