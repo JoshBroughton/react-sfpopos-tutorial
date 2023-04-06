@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import data from '../../data/sfpopos-data.json'
+import './RandomSpace.css'
 
 function RandomSpace() {
 	const navigate = useNavigate()
@@ -9,7 +10,7 @@ function RandomSpace() {
     onClick={(e) => {
 			const id = Math.floor(Math.random() * data.length)
 			navigate(`/details/${id}`)
-		}}>Show me a random space</button>
+		}}>Random</button>
   )
 }
 
