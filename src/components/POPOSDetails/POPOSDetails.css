@@ -1,23 +1,35 @@
 .POPOSDetails {
-	display: flex;
-	flex-direction: row;
-	width: 960px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 'i t'
+						 'i d'
+						 'i m';
+	width: 1240px;
 	margin: auto;
-}
-
-.POPOSDetails .POPOSDetails-info {
-	flex: 1;
-	text-align: left;
-	padding: 0 1em;
+	gap: 20px;
 }
 
 .POPOSDetails .POPOSDetails-title {
 	font-size: 2em;
 	margin: 0;
+	text-align: left;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	grid-area: t;
+}
+
+.POPOSDetails-desc {
+	grid-area: d;
+	font-size: 1.2em;
 }
 
 .POPOSDetails .POPOSDetails-image {
 	flex: 2;
+	grid-area: i;
 }
 
 .POPOSDetails .POPOSDetails-image img {
@@ -26,4 +38,37 @@
 
 .POPOSDetails .POPOSDetails-hours {
 	font-size: 1.5em;
+	margin: 0;
+}
+
+@media screen and (max-width: 460px) {
+	.POPOSDetails {
+		display: grid;
+		width: 92%;
+		margin: 15px;
+		grid-template-columns: 1fr;
+		grid-template-areas: 't'
+							 'i'
+							 'd';
+	}
+
+	.POPOSDetails .POPOSDetails-title {
+		grid-area: "t";
+	}
+
+	.POPOSDetails .POPOSDetails-hours {
+		grid-area: "h"
+	}
+	
+	.POPOSDetails .POPOSDetails-image {
+		grid-area: "i";
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.POPOSDetails-desc {
+		grid-area: "d"
+	}
 }
