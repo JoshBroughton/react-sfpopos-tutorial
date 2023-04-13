@@ -5,14 +5,17 @@
 }
 
 .nav-link {
-    color: rgba(255, 255, 255, 0.835);
+    color: black;
     font-weight: bold;
+    font-size: large;
     text-decoration: none;
 }
 
 .nav-link-active {
-    color: #fff;
+    color: black;
     border-bottom: 2px solid;
+    font-weight: bold;
+    font-size: large;
 }
 
 @media screen and (max-width: 460px) {
@@ -28,5 +31,6 @@
 
     .nav-link {
         color: black;
+        font-size: 34px;
     }
 }
