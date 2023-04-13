@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react-sfpopos-tutorial/static/css/main.cf4b2bfc.css",
-    "main.js": "/react-sfpopos-tutorial/static/js/main.9e1ec00a.js",
+    "main.css": "/react-sfpopos-tutorial/static/css/main.06bce422.css",
+    "main.js": "/react-sfpopos-tutorial/static/js/main.66e254c0.js",
     "static/js/787.9ad95fba.chunk.js": "/react-sfpopos-tutorial/static/js/787.9ad95fba.chunk.js",
+    "static/media/hamburger.jpg": "/react-sfpopos-tutorial/static/media/hamburger.23515f7fe1eb60e9b081.jpg",
     "index.html": "/react-sfpopos-tutorial/index.html",
-    "main.cf4b2bfc.css.map": "/react-sfpopos-tutorial/static/css/main.cf4b2bfc.css.map",
-    "main.9e1ec00a.js.map": "/react-sfpopos-tutorial/static/js/main.9e1ec00a.js.map",
+    "main.06bce422.css.map": "/react-sfpopos-tutorial/static/css/main.06bce422.css.map",
+    "main.66e254c0.js.map": "/react-sfpopos-tutorial/static/js/main.66e254c0.js.map",
     "787.9ad95fba.chunk.js.map": "/react-sfpopos-tutorial/static/js/787.9ad95fba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf4b2bfc.css",
-    "static/js/main.9e1ec00a.js"
+    "static/css/main.06bce422.css",
+    "static/js/main.66e254c0.js"
   ]
 }
