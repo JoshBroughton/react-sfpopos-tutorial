@@ -4,7 +4,7 @@ import "./Footer.css"
 function Footer() {
   return(
     <div className="Footer">
-      <p>By Josh Broughton for Dominican Applied Computer Science, 2023</p>
+      <p>By Josh Broughton, 2023</p>
     </div>
   )
 }

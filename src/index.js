@@ -6,8 +6,10 @@ import App from './components/App';
 import POPOSList from './components/POPOSList/POPOSList';
 import About from './components/About/About';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import Signup from './components/Signup/Signup';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -19,6 +21,8 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/menu" element={<Navbar />} />
       </Route>
     </Routes>
   </Router>

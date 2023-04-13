@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.nav-link-active {
+    color: black;
+    border-bottom: 2px solid;
+    font-weight: bold;
+    font-size: large;
+}
+
+@media screen and (max-width: 460px) {
+    .navBar {
+        align-self: flex-end;
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-right: 30px;
+        font-size: 34px;
+    }
+
+    .nav-link {
+        color: black;
+        font-size: 34px;
+    }
+}
