@@ -6,7 +6,7 @@ import './POPOSSpace.css'
 function POPOSSpace(props) {
   const { id, name, image, address, hours } = props;
   return (
-    <div className="POPOSSpace">
+    <article className="POPOSSpace">
       <Link to={`/details/${id}`}>
         <img className="spaceImage" src={`${process.env.PUBLIC_URL}/images/${image}`}     
           width="300"
@@ -19,7 +19,7 @@ function POPOSSpace(props) {
       </Link>    
       <div>{ address }</div>
       <p>{ hours }</p>
-    </div>
+    </article>
   )
 }
 
