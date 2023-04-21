@@ -18,8 +18,10 @@ export default function SignupForm() {
           id="username"
           type="text"
           value={username}
+          aria-describedby='username-description'
           onChange={(event) => setUsername(event.target.value)}
         />
+        <span id='username-description'>Enter a username for your account</span>
       </div>
       <div>
         <label htmlFor="email">Email:</label>
@@ -27,8 +29,10 @@ export default function SignupForm() {
           id="email"
           type="email"
           value={email}
+          aria-describedby='email-description'
           onChange={(event) => setEmail(event.target.value)}
         />
+        <span id='email-description'>Enter an email address for your account</span>
       </div>
       <div className='newsletter-div'>
         <label htmlFor="newsletter">Subscribe to Newsletter:</label>
@@ -36,8 +40,10 @@ export default function SignupForm() {
           id="newsletter"
           type="checkbox"
           checked={newsletter}
+          aria-describedby='newsletter-description'
           onChange={(event) => setNewsletter(event.target.checked)}
         />
+        <span id='username-description'>Check the box to subscribe to receiving newsletters</span>
       </div>
       <button type="submit">Submit</button>
     </form>

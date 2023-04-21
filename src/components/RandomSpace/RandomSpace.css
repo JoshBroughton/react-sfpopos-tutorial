@@ -7,6 +7,11 @@
     border: none;
 }
 
+.RandomSpace:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 10px grey;
+}
+
 @media screen and (max-width: 460px) {
     .RandomSpace {
         color: black;

@@ -10,3 +10,15 @@
     margin: 0;
     padding: 0;
 }
+
+.POPOSSpace h1 {
+    font-size: 1.8em;
+}
+
+.text-link {
+    color: black;
+    text-decoration: none;
+}
+ .text-link:hover {
+    text-shadow: 2px 2px 15px grey;
+ }

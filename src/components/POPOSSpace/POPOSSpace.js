@@ -6,20 +6,20 @@ import './POPOSSpace.css'
 function POPOSSpace(props) {
   const { id, name, image, address, hours } = props;
   return (
-    <div className="POPOSSpace">
+    <article className="POPOSSpace">
       <Link to={`/details/${id}`}>
         <img className="spaceImage" src={`${process.env.PUBLIC_URL}/images/${image}`}     
           width="300"
           height="300"
-          alt="50 Califonia St."
+          alt={ name }
         />
       </Link>
-      <Link to={`/details/${id}`}>
+      <Link className='text-link' to={`/details/${id}`}>
         <h1>{ name }</h1>
       </Link>    
       <div>{ address }</div>
       <p>{ hours }</p>
-    </div>
+    </article>
   )
 }
 

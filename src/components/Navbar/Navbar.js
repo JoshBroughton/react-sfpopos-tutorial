@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   return(
-    <div className='navBar'>
+    <nav className='navBar'>
       <NavLink
         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
         to='/'>List</NavLink>
@@ -16,6 +16,6 @@ export default function Navbar() {
         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
         to="/signup">Signup</NavLink>
       <RandomSpace />
-    </div>
+    </nav>
   )
 }
