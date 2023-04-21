@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   return(
-    <nav className='navBar' role="navigation">
+    <nav className='navBar'>
       <NavLink
         className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
         to='/'>List</NavLink>

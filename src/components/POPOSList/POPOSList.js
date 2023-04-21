@@ -27,12 +27,15 @@ function POPOSList() {
   return (
     <>
       <form>
+        <label for="filter">Filter Spaces:</label>
         <input
+          id="filter"
           value={query}
-          placeholder="search"
+          placeholder="filter"
+          aria-describedby='filter-description'
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <span id='filter-description'>Enter a term to filter the spaces.</span>
       </form>
       <section className="POPOSList">
         { spaces }

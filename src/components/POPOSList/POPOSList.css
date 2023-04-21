@@ -7,9 +7,20 @@
 	padding: 2em;
 }
 
-.POPOSList form {
+#filter-description {
+	display: none;
+}
+
+form {
 	display: flex;
-	align-items: flex-start;
+	align-self: center;
+	justify-content: space-evenly;
+	width: 350px;
+}
+
+label {
+	font-size: larger;
+	font-weight: bold;
 }
 
 .POPOSList form input, .POPOSList form button {

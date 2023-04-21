@@ -16,8 +16,6 @@ function POPOSDetails(props) {
         <p className="POPOSDetails-hours">{ hours }</p>
       </header>
       <p className="POPOSDetails-desc">{ desc }</p>
-      {/* <p className="POPOSDetails-features">{ features }</p>
-      <p className="POPOSDetails-geo">{ geo.lat } { geo.lon }</p> */}
     </article>
   )
 }
